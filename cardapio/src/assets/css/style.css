@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1240px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+nav{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.123);
+    padding: 2rem 1rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    font-size: 23px;
+    text-decoration: none;
+    letter-spacing: 0.4rem;
+    color: #f34444;
+}
+.nav span{
+    font-size: 1.2rem;
+}
+.wrapper{
+    padding: 1rem 0;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.wrapeer-lc{
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.05);
+    border: 1px solid #f2f2f2;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1rem;
+    flex: 1 420px;
+}
+.wrapeer-lc:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+.wrapeer-lc picture img{
+    max-width: 200px;
+    border-radius: 0.5rem;
+}
+.wrapeer-lc p{
+    font-size: 1.3rem;
+}
+.wrapeer-lc p:nth-child(2){
+    font-size: 1.1rem;
+}
+.wrapeer-lc button{
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    border: 0.15rem solid #f2f2f27e;
+    border-radius: 0.4rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    transition: .2s linear;
+}
+.wrapeer-lc button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.wrapeer-lc input{
+    padding: 0.3rem;
+    width: 50px;
+    text-align: center;
+    border: 0.15rem solid #f2f2f27e;
+    font-family: 'Roboto', sans-serif;
+    color: #2727277e;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    outline: navajowhite;
+}
+.cart-info{
+    display: flex;
+    flex-direction: column;
+}
+.info-dist{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+}
